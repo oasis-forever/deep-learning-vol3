@@ -1,1 +1,10 @@
-lib/__pycache__
+1_basic_differential/lib/__pycache__
+1_basic_differential/test/__pycache__
+2_natural_coding/lib/__pycache__
+2_natural_coding/test/__pycache__
+3_higher_differential/lib/__pycache__
+3_higher_differential/test/__pycache__
+4_neural_network/lib/__pycache__
+4_neural_network/test/__pycache__
+5_de_zero/lib/__pycache__
+5_de_zero/test/__pycache__
