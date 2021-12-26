@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append("../lib")
+sys.path.append('../lib')
 from diff import *
 from square import Square
 from variable import Variable
@@ -19,5 +19,5 @@ class TestDifferenciation(unittest.TestCase):
         dy = f(self.x)
         self.assertEqual(1.648721270700128, dy.data)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

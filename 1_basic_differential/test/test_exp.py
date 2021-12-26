@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append("../lib")
+sys.path.append('../lib')
 from exp import Exp
 from square import Square
 from variable import Variable
@@ -26,5 +26,5 @@ class TestTemplate(unittest.TestCase):
         y = self.exp.forward(self.input)
         self.assertEqual(1.6487212707001282, y)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

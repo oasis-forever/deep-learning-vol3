@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append("../lib")
+sys.path.append('../lib')
 from variable import Variable
 import numpy as np
 from numpy.testing import assert_array_equal
@@ -45,5 +45,5 @@ class TestVariable(unittest.TestCase):
             [4., 5., 6.]
         ]), variable.get_data())
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

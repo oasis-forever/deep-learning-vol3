@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append("../lib")
+sys.path.append('../lib')
 from variable import Variable
 from square import Square
 import numpy as np
@@ -37,5 +37,5 @@ class TestSquare(unittest.TestCase):
             [81, 81,  1]
         ]), y)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

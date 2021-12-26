@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append("../lib")
+sys.path.append('../lib')
 from variable import Variable
 from function import Function
 import numpy as np
@@ -18,5 +18,5 @@ class TestFunction(unittest.TestCase):
         with self.assertRaises(NotImplementedError):
             output = f(input)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
