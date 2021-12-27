@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append('../lib')
+sys.path.append('./1_basic_differential/src')
 from exp import Exp
 from square import Square
 from variable import Variable

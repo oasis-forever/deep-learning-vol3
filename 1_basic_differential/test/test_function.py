@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append('../lib')
+sys.path.append('./1_basic_differential/src')
 from variable import Variable
 from function import Function
 import numpy as np

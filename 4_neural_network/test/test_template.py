@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append('../lib')
+sys.path.append('./4_neural_network/src')
 from template import Template
 import numpy as np
 from numpy.testing import assert_array_equal
